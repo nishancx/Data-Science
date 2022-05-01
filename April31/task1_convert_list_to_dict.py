@@ -4,7 +4,7 @@ keys_list = [1, 2, 3, 4]
 values_list = ['a', 'b', 'c', 'd']
 my_dict = {5: 'e', 6: 'f'}
 
-def convert_list_to_dict(dict_a, list_keys, list_values):
+def convert_list_to_dict(dict_a:dict, list_keys:list, list_values:list):
     """Convert list to dict conditionally
 
     Args:
