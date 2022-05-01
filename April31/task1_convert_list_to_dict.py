@@ -4,9 +4,9 @@ def convert_list_to_dict(my_dict:dict, keys_ist:list, values_list:list):
     """convert list to dict conditionally
 
     Args:
-        my_dict (dict): _description_
-        keys_ist (list): _description_
-        values_list (list): _description_
+        my_dict (dict): dict to be added onto
+        keys_ist (list): list of keys
+        values_list (list): list of values
     """
 
     for key in keys_ist:
