@@ -1,10 +1,6 @@
 """Program to convert list to dict conditionally"""
 
-keys_list = [1, 2, 3, 4]
-values_list = ['a', 'b', 'c', 'd']
-my_dict = {5: 'e', 6: 'f'}
-
-def convert_list_to_dict(dict_a:dict, list_keys:list, list_values:list):
+def convert_list_to_dict(myDict:dict, keysList:list, listValues:list):
     """Convert list to dict conditionally
 
     Args:
@@ -13,9 +9,9 @@ def convert_list_to_dict(dict_a:dict, list_keys:list, list_values:list):
         list_values (_type_): _description_
     """
 
-    for key in list_keys:
-        if key not in dict_a:
-            dict_a[key] = list_values[key - 1]
-    print(dict_a)
+    for key in keysList:
+        if key not in myDict:
+            myDict[key] = listValues[key - 1]
+    print(myDict)
 
-convert_list_to_dict(my_dict, keys_list, values_list)
+convert_list_to_dict({5: 'e', 6: 'f'}, [1, 2, 3, 4], ['a', 'b', 'c', 'd'])
