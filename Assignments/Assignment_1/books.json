@@ -1,0 +1,52 @@
+[
+  {
+    "name": "BookJ",
+    "author": "AuthorJ",
+    "publishedYear": 2000
+  },
+  {
+    "name": "BookB",
+    "author": "AuthorB",
+    "publishedYear": 2001
+  },
+  {
+    "name": "BookC",
+    "author": "AuthorC",
+    "publishedYear": 2002
+  },
+  {
+    "name": "BookD",
+    "author": "AuthorD",
+    "publishedYear": 2003
+  },
+  {
+    "name": "BookE",
+    "author": "AuthorE",
+    "publishedYear": 2004
+  },
+  {
+    "name": "BookF",
+    "author": "AuthorF",
+    "publishedYear": 2005
+  },
+  {
+    "name": "BookG",
+    "author": "AuthorG",
+    "publishedYear": 2006
+  },
+  {
+    "name": "BookH",
+    "author": "AuthorH",
+    "publishedYear": 2007
+  },
+  {
+    "name": "BookI",
+    "author": "AuthorI",
+    "publishedYear": 2008
+  },
+  {
+    "name": "BookA",
+    "author": "AuthorA",
+    "publishedYear": 2009
+  }
+]
