@@ -10,7 +10,8 @@
 		"editor.formatOnType": true,
 		"editor.formatOnSaveMode": "modificationsIfAvailable",
 		"cSpell.words": [
-			"arange"
+			"arange",
+			"dtype"
 		]
 	}
 }
